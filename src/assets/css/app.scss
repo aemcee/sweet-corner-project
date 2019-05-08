@@ -1,0 +1,26 @@
+@import './colors';
+
+.app {
+    .center {
+        text-align: center;
+    }
+
+    .container {
+        margin: 0 auto;
+        width: 1000px;
+    }
+}
+
+@font-face{
+    font-family: fancy;
+    src: url('../fonts/Allura-Regular.ttf');
+}
+
+body{
+    .fancy{
+        // font-family: 'Dancing Script', cursive;
+        font-family: fancy;
+    }
+
+    color: $color;
+}
